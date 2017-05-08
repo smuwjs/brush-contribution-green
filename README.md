@@ -21,7 +21,7 @@
 
 * 这个工程有两个模块，green和heavy，分别实现地毯式浅色提交与集中式深色提交
 
-### green
+### green.py
 > 浅色提交
 
 修改green.py中，main部分传入你需要刷的起始时间和结束时间，
@@ -51,7 +51,7 @@ def trick_commit(year, month, day):
 ```
 具体每个函数的实现可以看green.py，主要是通过系统调用实现
 
-### heavy
+### heavy.py
 
 > 深色提交
 
