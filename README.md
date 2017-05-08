@@ -17,7 +17,7 @@
 > 程序员就是懒啊。。。
 
 
-![img](http://opesdt6ii.bkt.clouddn.com/17-5-8/26364330-file_1494220366024_1671a.png)
+![img](http://opesdt6ii.bkt.clouddn.com/17-5-8/16215823-file_1494236212168_1483f.png)
 
 * 这个工程有两个模块，green和heavy，分别实现地毯式浅色提交与集中式深色提交
 
