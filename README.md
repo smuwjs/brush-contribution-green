@@ -21,7 +21,7 @@
 
 * 这个工程有两个模块，green和heavy，分别实现地毯式浅色提交与集中式深色提交
 
-###green
+### green
 > 浅色提交
 
 修改green.py中，main部分传入你需要刷的起始时间和结束时间，
@@ -42,7 +42,7 @@ git push origin master
 
 > 因为修改系统时间使用了date命令（我的环境是ubuntu，windows要用另外的命令），所以要用sudo提高权限执行，否则执行后都是今天的commit
 
-###关键代码
+### 关键代码
 ```python
 def trick_commit(year, month, day):
     set_sys_time(year, month, day)  # 设置系统时间
@@ -51,7 +51,7 @@ def trick_commit(year, month, day):
 ```
 具体每个函数的实现可以看green.py，主要是通过系统调用实现
 
-###heavy
+### heavy
 
 > 深色提交
 
